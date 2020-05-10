@@ -8,13 +8,7 @@ class WrapPage extends StatefulWidget {
 
 class _WrapPageState extends State<StatefulWidget> {
   List<Chip> _chips = List<Chip>();
-  String _text = "";
   final _controller = TextEditingController();
-
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   void dispose() {
